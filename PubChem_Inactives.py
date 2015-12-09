@@ -153,9 +153,7 @@ def uniprot_smiles(uniprot):
 	aids += elink_ids(pids,"protein","pcassay")
 	aids = list(set(aids))
 	if len(aids) == 0: return []
-	print len(aids),
 	cids = aid_cid(aids)
-	print len(cids),
 	return cids
 	
 def main():
@@ -164,4 +162,4 @@ def main():
 
 if __name__ == "__main__":
 	x= main()
-	print( x )
+	print x
