@@ -32,14 +32,14 @@ Usage: PubChem_Inactives_Actives.py [options]
 
 Options:
 
- ```-h, --help            show this help message and exit```
+ ```-h, --help ```           show this help message and exit
   
 ```  -i FILE, --input=FILE```
                         Input file (Uniprots [default] or EGIDs [must supply
                         the --geneids option])
                         
-```  --geneids             Toggle Entrez Gene ID input format```
+```  --geneids ```            Toggle Entrez Gene ID input format
   
-```  --actives             Toggle extract actives```
+```  --actives ```            Toggle extract actives
   
-```  --inactives           Toggle extract inactives```
+```  --inactives ```          Toggle extract inactives
